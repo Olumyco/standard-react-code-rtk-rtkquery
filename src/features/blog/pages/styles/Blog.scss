@@ -1,0 +1,54 @@
+.blog {
+    
+    .blog__layout {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__heading {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    &__form {
+        border: 1px solid #ccc;
+        border-radius: 0.5em;
+        padding: 20px;
+
+        &__area {
+            width: 300px;
+
+            &__button {
+                padding-top: 20px;
+            }
+        }
+    }
+
+    &__view__area {
+        display: flex;
+        justify-content: center;
+        padding-top: 30px;
+
+        &__data {
+            border-bottom: 1px solid #ccc;
+            padding: 20px;
+        }
+        
+    }
+}
+
+.rate__blog {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+
+    &__card {
+        padding: 30px;
+        border: 1px solid #ccc;
+        border-radius: 0.4em;
+        width: 300px;
+    }
+}
+
+@import "Blog.mobile";

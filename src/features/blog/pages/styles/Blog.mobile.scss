@@ -1,0 +1,11 @@
+@import "../../../../styles/base";
+
+@media only screen and (max-width: $mobile) {
+    .blog {
+    
+        .blog__layout {
+            display: block;
+            justify-content: unset;
+        }
+    }
+}
